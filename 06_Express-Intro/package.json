@@ -1,0 +1,24 @@
+{
+  "name": "express-intro",
+  "version": "1.0.0",
+  "description": "A breif description about express",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Ashish Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
