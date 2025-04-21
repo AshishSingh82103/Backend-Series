@@ -1,0 +1,20 @@
+{
+  "name": "errors-and-debugging",
+  "version": "1.0.0",
+  "description": "lear about errors and handel the errors through debugging",
+  "keywords": [
+    "node.js"
+  ],
+  "license": "ISC",
+  "author": "Ashish Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
