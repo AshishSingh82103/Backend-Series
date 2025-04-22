@@ -1,0 +1,25 @@
+{
+  "name": "express-deepdive",
+  "version": "1.0.0",
+  "description": "Deepdive into express",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Ashish Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node, express",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
